@@ -18,7 +18,7 @@ st.set_page_config(
 # -------------------------
 # Load Dataset
 # -------------------------
-DATA_PATH = r"C:\Users\nicoj\Desktop\Sri Lankan CKD Dataset.csv"
+DATA_PATH = r"./Sri Lankan CKD Dataset.csv"
 
 
 @st.cache_data
@@ -114,3 +114,4 @@ if submit_btn:
     st.subheader("Prediction Result:")
     st.markdown(
         f"<h2 style='color:#0ea5a4'>{pred_text}</h2>", unsafe_allow_html=True)
+
